@@ -1,4 +1,4 @@
-package br.com.senai.exemplo;
+package br.com.senai;
 
 public class ProgramaPrincipalCarro {
 	public static void main(String[] args) {

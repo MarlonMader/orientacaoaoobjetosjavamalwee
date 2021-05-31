@@ -1,4 +1,4 @@
-package br.com.senai.exemplo;
+package br.com.senai;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,20 +49,20 @@ public class ProgramaPrincipal {
 			System.out.println("-------------------------");
 		}
 		Scanner tec = new Scanner(System.in);
-		MetodoController metodoController = new MetodoController();
+		MetodoController pessoaController = new MetodoController();
 		
 		System.out.println("--- TABUADA ---");
 		MetodoController.multiplicar();
 	
 		System.out.println("--- SOMA DE DOIS VALORES ---");
-		System.out.println("A soma dá: " + metodoController.somar());
+		System.out.println("A soma dá: " + pessoaController.somar());
 		
 		System.out.println("--- SUBTRAÇÃO DE VALORES por parâmetro---");
 		System.out.println("Informe o Primeiro valor: ");
 		int valor1 = tec.nextInt();
 		System.out.println("Informe o Segundo valor: ");
 		int valor2 = tec.nextInt();
-		System.out.println("A subtração dá: " + metodoController.subtrair(valor1, valor2));
+		System.out.println("A subtração dá: " + pessoaController.subtrair(valor1, valor2));
 		
 	}
 }

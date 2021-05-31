@@ -1,4 +1,4 @@
-package br.com.senai.exemplo;
+package br.com.senai;
 
 import java.util.Scanner;
 
