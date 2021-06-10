@@ -38,7 +38,14 @@ public class Pessoa extends Enderaco {
 	public void setAltura(double altura) {
 		this.altura = altura;
 	}
+	public Object getnomeDoPais() {
+
+		return null;
+	}
+
+
+	}
 	
 	
 	
-}
+

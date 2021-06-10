@@ -24,7 +24,6 @@ public class ProgramaPrincipal {
 
 
 		case 2:
-		Object pessoas;
 		pessoaController.listarPessoas(pessoa);
 		break;
 
